@@ -1,0 +1,71 @@
+@import "../styles/mixins.scss";
+@import "../styles/variables.scss";
+
+.header__ {
+  &container {
+    width: 100%;
+    background-image: url("../img/Headphones_DT.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &top {
+    &-menu {
+      margin-right: 123px;
+      margin-top: 70px;
+      height: 12px;
+      width: 18px;
+
+      background-image: url("../img/menu.png");
+      background-repeat: no-repeat;
+      &:hover {
+        background-image: url("../img/menuHover.png");
+      }
+    }
+  }
+}
+
+@media (min-width: 744px) {
+  .header__ {
+    &container {
+      height: 800px;
+      background-position: top 0px left -360px;
+    }
+  }
+}
+
+@media (min-width: 1260px) {
+  .header__ {
+    &container {
+      height: 720px;
+      background-position: center;
+      background-size: 100%;
+    }
+    &top {
+      &-box {
+        display: flex;
+        justify-content: space-between;
+      }
+      &-logo {
+        padding-left: 120px;
+        padding-top: 64px;
+      }
+    }
+    &bottom {
+      &-sound {
+        margin-left: 120px;
+        margin-top: 356px;
+      }
+      &-title {
+        margin-top: 40px;
+        margin-left: 120px;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: italic;
+        font-weight: 800;
+        line-height: 48px;
+        letter-spacing: -1.5px;
+        text-align: left;
+      }
+    }
+  }
+}
