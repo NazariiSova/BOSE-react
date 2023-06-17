@@ -4,6 +4,7 @@ import logo from "../img/logo.png";
 import menu from "../img/menu.png";
 import menuHover from "../img/menuHover.png";
 import sound from "../img/sound.png";
+import Menu from "../menu/Menu.jsx";
 
 
 
@@ -25,7 +26,7 @@ const Header = () => {
       <div className="header__bottom-sound" ><img className="header__bottom-sound-img" src={sound} alt="sound"/></div>
       <div className="header__bottom-title">The world shades. <br/>Your music shines.</div>
       </div>
-      {isMenu && <div>aslfhgouiyfrhigyifyhg7uyf</div>}
+      {isMenu && <Menu closeMenu={handlerClick} />}
     </div>
   );
 };
