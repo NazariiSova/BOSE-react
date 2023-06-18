@@ -4,3 +4,48 @@
 body {
   margin: 0px 0px 0px 0px;
 }
+
+.buy__ {
+  &container {
+    display: flex;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+  }
+  &title {
+    @include DTTitle;
+    text-align: left;
+    margin-right: 111px
+  }
+  &description {
+    &-list {
+      @include DTMedium;
+      list-style-type: none;
+      padding: 0;
+    }
+    &-item {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 22px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #292929;
+      margin-top: 16px;
+    }
+    &-text {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 27px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #292929;
+      margin-top: 40px;
+    }
+  }
+}
+.footer__photo{
+  width: 100%;
+  margin-top: 120px;
+}

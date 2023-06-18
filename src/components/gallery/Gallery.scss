@@ -1,0 +1,26 @@
+.gallery__{
+ 
+  &title {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.5px;
+    text-align: center;
+    color: #292929;
+    margin-top: 120px;
+  }
+  &category-container {
+    margin-top: 64px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+  justify-content: center;
+  }
+   &container-img {
+    display: flex;
+    justify-content: center;
+  }
+}

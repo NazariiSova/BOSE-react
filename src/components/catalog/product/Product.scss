@@ -1,2 +1,19 @@
 @import "../../../components/styles/mixins.scss";
 @import "../../../components/styles/variables.scss";
+
+.product__ {
+   
+  &title {
+    @include DTMedium;
+    margin-top: 32px;
+  }
+  &description {
+    @include DTSmall;
+    margin-top: 8px;
+  }
+  &price {
+    @include DTMedium;
+    margin-top: 8px;
+  }
+}
+

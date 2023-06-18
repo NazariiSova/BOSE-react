@@ -1,0 +1,22 @@
+.Category__ {
+  &container {
+    justify-content: center;
+  }
+  &img-container {
+    display: flex;
+    margin-top: 64px;
+  }
+  &img1 {
+    margin-right: 24px;
+  }
+  &description {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #292929;
+    margin-top: 16px;
+  }
+}

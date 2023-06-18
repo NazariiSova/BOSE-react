@@ -17,7 +17,7 @@ const Header = () => {
         setIsMenu(!isMenu) ;
     }
   return (
-    <div className="header__container">
+    <div className="header__container" id="home">
       <div className="header__top-box">
       <img className="header__top-logo" src={logo} alt="logo"/>
       <div className="header__top-menu" onClick={handlerClick}></div>
