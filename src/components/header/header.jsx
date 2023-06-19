@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./header.scss";
 import logo from "../img/logo.png";
-import menu from "../img/menu.png";
-import menuHover from "../img/menuHover.png";
 import sound from "../img/sound.png";
 import Menu from "../menu/Menu.jsx";
 
