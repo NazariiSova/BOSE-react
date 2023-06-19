@@ -1,6 +1,6 @@
 import React from "react";
 import Product from "./product/Product.jsx";
-import "./Catalog.scss"
+import "./Catalog.scss";
 import speaker1 from "../img/speaker1.png";
 import speaker2 from "../img/speaker2.png";
 import speaker3 from "../img/speaker3.png";
@@ -30,17 +30,19 @@ const products = [
 const Catalog = () => {
   return (
     <div className="Catalog__container" id="catalog">
-      <div className="Catalog__title">Recommended</div>
       <div className="Catalog__product-container">
-        {products.map((product) => (
-          <Product
-            key={product.id}
-            productSpeaker={product.productSpeaker}
-            title={product.title}
-            description={product.description}
-            price={product.price}
-          />
-        ))}
+        <div className="Catalog__title">Recommended</div>
+        <div className="Catalog__product-content-container">
+          {products.map((product) => (
+            <Product
+              key={product.id}
+              productSpeaker={product.productSpeaker}
+              title={product.title}
+              description={product.description}
+              price={product.price}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

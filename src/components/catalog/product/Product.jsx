@@ -1,6 +1,6 @@
 import React from "react";
-import "./Product.scss"
-const Product = ({productSpeaker, title, description, price}) => {
+import "./Product.scss";
+const Product = ({ productSpeaker, title, description, price }) => {
   return (
     <div className="product__card">
       <img className="product__img" src={productSpeaker} alt="speaker" />
