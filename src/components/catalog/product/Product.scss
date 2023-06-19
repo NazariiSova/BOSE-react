@@ -2,10 +2,10 @@
 @import "../../../components/styles/variables.scss";
 
 .product__ {
-   
   &title {
     @include DTMedium;
     margin-top: 32px;
+    
   }
   &description {
     @include DTSmall;
@@ -16,4 +16,7 @@
     margin-top: 8px;
   }
 }
+
+
+  
 
