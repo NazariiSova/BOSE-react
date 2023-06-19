@@ -58,7 +58,6 @@ body {
       max-width: 650px;
       margin-left: 13%;
       margin-right: 10%;
-     
     }
     &title {
       font-size: 35px;
@@ -73,17 +72,31 @@ body {
 @media (max-width: 630px) {
   .buy__ {
     &container {
-      max-width: 300px;
+      max-width: 400px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin: 0;
+      margin-inline: auto;
+      &-block {
+        display: block;
+      }
     }
     &title {
-      font-size: 20px;
+      font-size: 30px;
+      max-width: 80%;
+      display: inline;
+      margin-inline: 20%;
+      padding-inline: auto;
     }
-    &description-list {
-      font-size: 8px;
+    &description {
+      &-list {
+        margin-top: 40px;
+        font-size: 8px;
+        padding-inline: 5%;
+      }
+      &-text {
+        padding-inline: 5%;
+      }
     }
   }
 }
