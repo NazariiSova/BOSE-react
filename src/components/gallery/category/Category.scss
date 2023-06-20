@@ -18,6 +18,7 @@
     text-align: left;
     color: #292929;
     margin-top: 16px;
+    margin-left: 2%;
   }
 }
 
@@ -27,14 +28,16 @@
       margin-inline: 5%;
     }
     &img {
-      min-width: 20%;
-      max-width: 60%;
+      min-width: 25%;
+      max-width: 65%;
     }
     &img-container {
       display: flex;
+      justify-content: center;
+      gap: 15px;
     }
     &description {
-      margin-left: 20px;
+      margin-left: 3%;
     }
   }
 }
@@ -45,23 +48,22 @@
       max-width: 80%;
     }
     &img {
-      min-width: 20%;
-      max-width: 60%;
+      min-width: 25%;
+      max-width: 65%;
       min-height: 20%;
       max-height: 60%;
       margin-top: 10px;
     }
-    &img1 {
-      margin-right: 5px;
-    }
+
     &img-container {
       display: flex;
       padding: 0;
-     margin-top: 5px;
+      margin-top: 5px;
+      justify-content: center;
+      gap: 10px;
     }
     &description {
       margin-top: 0;
-      margin-left: 10px;
       font-size: 15px;
     }
   }

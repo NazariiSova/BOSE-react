@@ -34,7 +34,9 @@
     }
     &title {
       margin-top: 80px;
-      display: inline;
+      margin-right: 2%;
+      font-size: 30px;
+      justify-content: center;
     }
 
     &product {
@@ -58,13 +60,12 @@
     &container {
       display: flex;
       justify-content: center;
-      
     }
     &title {
       display: flex;
       flex-direction: column;
       margin-top: 50px;
-      font-size: 30px;
+      font-size: 25px;
       text-align: center;
       justify-content: center;
     }
@@ -74,6 +75,7 @@
         margin-top: 120px;
         margin-left: 3%;
       }
+      
       &-content-container {
         display: block;
         justify-content: space-around;
