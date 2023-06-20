@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/BOSE-react-mate/static/css/main.e542352d.css",
-    "main.js": "/BOSE-react-mate/static/js/main.a76aaa0d.js",
-    "static/media/footer.png": "/BOSE-react-mate/static/media/footer.037f25bee32eae719db6.png",
-    "static/media/Headphones_DT.png": "/BOSE-react-mate/static/media/Headphones_DT.a243356a3ea18470a528.png",
-    "static/media/photo3.png": "/BOSE-react-mate/static/media/photo3.39da38bcfda41e1e25b6.png",
-    "static/media/photo6.png": "/BOSE-react-mate/static/media/photo6.7d0694e0b02fc3054f35.png",
-    "static/media/photo1.png": "/BOSE-react-mate/static/media/photo1.7c30bb3fb450d4a918b2.png",
-    "static/media/photo4.png": "/BOSE-react-mate/static/media/photo4.d1a25c54102de2ca4131.png",
-    "static/media/photo2.png": "/BOSE-react-mate/static/media/photo2.2acdb353c831b921933e.png",
-    "static/media/photo5.png": "/BOSE-react-mate/static/media/photo5.93bd082864975030c722.png",
-    "static/media/speaker3.png": "/BOSE-react-mate/static/media/speaker3.64ae1c8fcf2caaf8c48a.png",
-    "static/media/speaker2.png": "/BOSE-react-mate/static/media/speaker2.83bd4574966dba43a941.png",
-    "static/media/speaker1.png": "/BOSE-react-mate/static/media/speaker1.0535ff329e08a98a07d3.png",
-    "index.html": "/BOSE-react-mate/index.html",
-    "main.e542352d.css.map": "/BOSE-react-mate/static/css/main.e542352d.css.map",
-    "main.a76aaa0d.js.map": "/BOSE-react-mate/static/js/main.a76aaa0d.js.map"
+    "main.css": "/BOSE-react/static/css/main.b1955db9.css",
+    "main.js": "/BOSE-react/static/js/main.7181a694.js",
+    "static/media/footer.png": "/BOSE-react/static/media/footer.037f25bee32eae719db6.png",
+    "static/media/Headphones_DT.png": "/BOSE-react/static/media/Headphones_DT.a243356a3ea18470a528.png",
+    "static/media/photo3.png": "/BOSE-react/static/media/photo3.39da38bcfda41e1e25b6.png",
+    "static/media/photo6.png": "/BOSE-react/static/media/photo6.7d0694e0b02fc3054f35.png",
+    "static/media/photo1.png": "/BOSE-react/static/media/photo1.7c30bb3fb450d4a918b2.png",
+    "static/media/photo4.png": "/BOSE-react/static/media/photo4.d1a25c54102de2ca4131.png",
+    "static/media/photo2.png": "/BOSE-react/static/media/photo2.2acdb353c831b921933e.png",
+    "static/media/photo5.png": "/BOSE-react/static/media/photo5.93bd082864975030c722.png",
+    "static/media/speaker3.png": "/BOSE-react/static/media/speaker3.64ae1c8fcf2caaf8c48a.png",
+    "static/media/speaker2.png": "/BOSE-react/static/media/speaker2.83bd4574966dba43a941.png",
+    "static/media/speaker1.png": "/BOSE-react/static/media/speaker1.0535ff329e08a98a07d3.png",
+    "index.html": "/BOSE-react/index.html",
+    "main.b1955db9.css.map": "/BOSE-react/static/css/main.b1955db9.css.map",
+    "main.7181a694.js.map": "/BOSE-react/static/js/main.7181a694.js.map"
   },
   "entrypoints": [
-    "static/css/main.e542352d.css",
-    "static/js/main.a76aaa0d.js"
+    "static/css/main.b1955db9.css",
+    "static/js/main.7181a694.js"
   ]
 }
